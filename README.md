@@ -1,5 +1,5 @@
 # Gitten Mabelli
-An unusual Italian trattoria
+An *unusual* Italian trattoria
 
 ## To install
 
