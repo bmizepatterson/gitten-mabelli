@@ -8646,13 +8646,13 @@ a {
 }
 .banner-container .site-title h1, .banner-container .page-title h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1;
   color: #ffc929;
   text-shadow: 3px 3px 10px #000, -3px -3px 20px #000;
   transition: 0.5s;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .banner-container .site-title h1, .banner-container .page-title h1 {
     font-size: 10rem;
   }
@@ -8685,6 +8685,9 @@ a {
 }
 .page-banner.locations {
   background-image: url("../img/page-banner-locations.jpg");
+}
+.page-banner.reservations {
+  background-image: url("../img/page-banner-reservations.jpg");
 }
 
 .content {

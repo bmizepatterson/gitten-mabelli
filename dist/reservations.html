@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'>
     <link rel="stylesheet" href="css/main.css">
-    <title>Locations | Gitten Mabelli</title>
+    <title>Reservations | Gitten Mabelli</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -29,40 +29,54 @@
         </div>
     </nav>
 
-    <div class="page-banner locations banner-container bg-dark">
+    <div class="page-banner reservations banner-container bg-dark">
         <div class="page-title">
-            <h1>Locations</h1>
+            <h1>Reservations</h1>
         </div>
         <div class="page-tag">
-            <p>We operate from an <span class="unusual">unusual</span> location.</p>
+            <p>Prepare yourself for an <span class="unusual">unusual</span> experience.</p>
         </div>
     </div>
 
     <div class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-md col-lg-6 mt-3">
-                    <p>Our locally-sourced food can only be found in the beautiful city of Lexington, Kentucky.</p>
-                    <p>We're located in the upstairs closet of <a href="https://www.awesomeinc.org/" target="_blank">Awesome, Inc.</a> at 348 E. Main Street.</p>
-                    <p>(Watch out: The air conditioner is out.)</p>
+        <div class="container p-3 p-md-5">
+            <form>
+                <div class="form-group">
+                    <label for="name" class="sr-only">Name</label>
+                    <input name="name" id="name" type="text" class="form-control mb-2" placeholder="Name">
+                    <label for="email" class="sr-only">Email</label>
+                    <input name="email" id="email" type="email" class="form-control" placeholder="Email">
+                    <small class="form-text text-muted ml-1 mb-2 mt-0">We'll send you a confirmation of your reservation. No marketing. We promise.</small>
+                    <label for="phone" class="sr-only">Phone</label>
+                    <input name="phone" id="phone" type="text" class="form-control mb-2" placeholder="Phone">
                 </div>
-                <div class="col-md col-lg-3 mt-3">
-                    <h3>Mailing Address</h3>
-                    <p>348 E. Main Street<br />Lexington, KY 40507</p>
+                <div class="form-group form-row">
+                    <div class="col-md">
+                        <label for="date" class="sr-only">Date</label>
+                        <input name="date" id="date" type="date" class="form-control mb-2" placeholder="Date">
+                    </div>
+                    <div class="col-md">
+                        <label for="time" class="sr-only">Time</label>
+                        <select class="form-control mb-2">
+                            <option selected>Time</option>
+                            <option>5:00 pm</option>
+                            <option>5:30 pm</option>
+                            <option>6:00 pm</option>
+                            <option>6:30 pm</option>
+                            <option>7:00 pm</option>
+                            <option>7:30 pm</option>
+                            <option>8:00 pm</option>
+                            <option>8:30 pm</option>
+                            <option>9:00 pm</option>
+                            <option>9:30 pm</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="col-md col-lg-3 mt-3">
-                    <h3>Hours of Operation</h3>
-                    <dl>
-                        <dt>Wednesday through Saturday</dt>
-                        <dd>Dinner only: 5pm - 10pm</dd>
-                        <dt>Sunday</dt>
-                        <dd>Brunch and Dinner: 11am - 8pm</dd>
-                    </dl>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="btn btn-primary">Submit reservation</button>
                 </div>
-            </div>
+            </form>
         </div>
-
-        <iframe id="map" width="100" height="400" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJMyxTROhEQogRE7c2r1eZkbY&key=AIzaSyBqotwxy9_ElElXn264jaUZ79v9se_Tsak"></iframe>
     </div>
 
     <div class="container-fluid footer text-center">
