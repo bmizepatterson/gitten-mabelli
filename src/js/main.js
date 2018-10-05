@@ -1,6 +1,8 @@
-
+// API Request object
 let apiRequest = null;
+// div tag where API response data will go
 let menuOutput = null;
+// div tag where error messages will go
 let errorOutput = null;
 
 document.onreadystatechange = function() {

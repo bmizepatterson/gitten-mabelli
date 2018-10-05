@@ -8677,6 +8677,9 @@ a {
 .page-banner.menu {
   background-image: url("../img/page-banner-menu.jpg");
 }
+.page-banner.locations {
+  background-image: url("../img/page-banner-locations.jpg");
+}
 
 .content {
   background-color: #f8f9fa;

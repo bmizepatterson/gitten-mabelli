@@ -7,7 +7,7 @@
         "sass": "sass --watch src/sass/main.scss dist/css/main.css",
         "browser-sync": "browser-sync start --server 'dist' --files 'dist'",
         "babel": "babel src/js --out-dir dist/js --watch",
-        "copy": "cpx \"src/**/*.{html,png,jpg}\" dist --watch",
+        "copy": "cpx \"src/**/*.{html,png,jpg,ico}\" dist --watch",
         "dev": "concurrently \"npm run browser-sync\" \"npm run sass\" \"npm run babel\" \"npm run copy\""
     },
     "devDependencies": {

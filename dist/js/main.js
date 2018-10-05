@@ -1,7 +1,10 @@
 "use strict";
 
-var apiRequest = null;
-var menuOutput = null;
+// API Request object
+var apiRequest = null; // div tag where API response data will go
+
+var menuOutput = null; // div tag where error messages will go
+
 var errorOutput = null;
 
 document.onreadystatechange = function () {
