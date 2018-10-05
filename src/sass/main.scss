@@ -1,8 +1,93 @@
 // Customized Bootstrap variables go here so they override the defaults
 
+// Fonts
+$font-family-logo: "Amatic SC", Georgia, Times, serif;
+$font-family-heading: Satisfy, Georgia, Times, serif;
+$font-family-base: Lato, "Helvetica Neue", Arial, sans-serif;
+
+// Colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$midnight-blue:   #25374a;
+$vegetable-green: #3f6e3c;
+$tuscan-yellow:   #f4c533;
+$cinnamon-red:    #cc3610;
+$cedar-brown:     #924e29;
+
+
+$primary:       $midnight-blue;
+$secondary:     $gray-600;
+$success:       $vegetable-green;
+$info:          $cedar-brown;
+$warning:       $tuscan-yellow;
+$danger:        $cinnamon-red;
+$light:         $gray-100;
+$dark:          $gray-800;
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&text=GittenMabelli');
 
 // Import default Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 
 // Any sass from here on out overrides default Bootstrap styles
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-heading;
+    margin-bottom: $spacer;
+}
+
+.brand {
+    font-family: $font-family-logo;
+    word-spacing: 0.2em;
+    letter-spacing: -0.05em;
+}
+
+// Nav bar
+.navbar-brand {
+    font-size: 2rem;
+}
+
+// Site header
+.banner-container {
+    background-image: url('../assets/homepage-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 250px 10% 270px;
+    // box-shadow: 0px 10px 20px -7px $gray-800;
+    .site-title {
+        h1,h2 {
+            text-align: center;
+            font-size: 6rem;
+            font-family: $font-family-logo;
+            letter-spacing: -5px;
+            color:$white;
+        }
+    }
+    .site-tag {
+        // max-width: 500px;
+        // float:right;
+        text-align: center;
+        padding: 0.5rem;
+        margin-top: $spacer;
+        background-color: rgba(150, 150, 150, 0.8);
+        color: $white;
+        p {
+            margin:0;
+        }
+    }
+}
+
+
