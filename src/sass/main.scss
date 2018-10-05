@@ -92,10 +92,14 @@ a {
     .site-title, .page-title {
         h1 {
             text-align: center;
-            font-size: 10rem;
+            font-size: 5rem;
             line-height: 1;
             color:$tuscan-yellow;
             text-shadow: $shadow;
+            transition: 0.5s;
+            @include media-breakpoint-up(md) {
+                font-size: 10rem;
+            }
         }
     }
     %tag-line {
@@ -144,18 +148,23 @@ a {
 // Site footer
 .footer {
     padding: $spacer $spacer * 2 $spacer * 2;
-    dl {
-        margin: 0;
-        @include media-breakpoint-up(sm) {
-                margin-left: 50%;
+    ul {
+        margin-top: $spacer;
+        padding: 0;
+
+        li {
+            list-style-type: none;
         }
     }
-    dt {
-        margin-top: $spacer / 2;
+    a {
+        color: $light;
+        font-weight: normal;
+        &:hover {
+            color: darken($light, 25%);
+        }
     }
-    dd {
-        margin-left: $spacer;
-        margin-bottom: 0;
+    small {
+        line-height: 1;
     }
 }
 
