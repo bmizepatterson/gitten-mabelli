@@ -117,6 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 .content {
     background-color: $light;
     color: $dark;
+    padding-top: $spacer;
+    padding-bottom: $spacer;
 }
 
 // Site footer
@@ -137,6 +139,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-
-
-
+#menu-output, #error-output {
+    display: none;
+    text-align: center;
+    h2 {
+        margin-top: $spacer * 5;
+    }
+}

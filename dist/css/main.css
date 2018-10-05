@@ -8670,6 +8670,8 @@ h1, h2, h3, h4, h5, h6 {
 .content {
   background-color: #f8f9fa;
   color: #343a40;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .footer {
@@ -8689,6 +8691,14 @@ h1, h2, h3, h4, h5, h6 {
 .footer dd {
   margin-left: 1rem;
   margin-bottom: 0;
+}
+
+#menu-output, #error-output {
+  display: none;
+  text-align: center;
+}
+#menu-output h2, #error-output h2 {
+  margin-top: 5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
