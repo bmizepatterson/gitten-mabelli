@@ -39,6 +39,11 @@ $body-color:    $light;
 
 $shadow:        3px 3px 10px #000, -3px -3px 20px #000;
 
+// Links
+$link-color:       $primary;
+$link-decoration:  underline;
+$link-hover-color: darken($link-color, 25%);
+
 // Import fonts
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&text=GittenMabelliunusual');
@@ -53,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: $spacer;
 }
 
+a {
+    font-weight: bold;
+}
+
 .brand {
     font-family: $font-family-logo;
     word-spacing: 0.2em;
@@ -60,8 +69,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Nav bar
-.navbar-brand {
-    font-size: 2rem;
+.navbar {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .nav-item.active{
+        text-decoration: overline;
+    }
+    a {
+        text-decoration: none;
+    }
 }
 
 // Site header
