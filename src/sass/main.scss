@@ -20,7 +20,7 @@ $black:    #000;
 
 $midnight-blue:   #25374a;
 $vegetable-green: #3f6e3c;
-$tuscan-yellow:   #f4c533;
+$tuscan-yellow:   #ffc929;
 $cinnamon-red:    #cc3610;
 $cedar-brown:     #924e29;
 
@@ -34,9 +34,11 @@ $danger:        $cinnamon-red;
 $light:         $gray-100;
 $dark:          $gray-800;
 
+$shadow:        3px 3px 10px #000, -3px -3px 20px #000;
+
 // Import fonts
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Satisfy');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC&text=GittenMabelli');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&text=GittenMabelliunusual');
 
 // Import default Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
@@ -61,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 // Site header
 .banner-container {
-    background-image: url('../assets/homepage-banner.jpg');
+    background-image: url('../img/home-banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -73,21 +75,49 @@ h1, h2, h3, h4, h5, h6 {
             font-size: 6rem;
             font-family: $font-family-logo;
             letter-spacing: -5px;
-            color:$white;
+            color:$tuscan-yellow;
+            text-shadow: $shadow;
         }
     }
     .site-tag {
-        // max-width: 500px;
-        // float:right;
         text-align: center;
         padding: 0.5rem;
         margin-top: $spacer;
-        background-color: rgba(150, 150, 150, 0.8);
+        background-color: rgba($black, 0.8);
         color: $white;
+        font-family: $font-family-heading;
+        font-size: 1.5rem;
         p {
             margin:0;
         }
+        .unusual {
+            font-family: $font-family-logo;
+            font-weight: bold;
+            text-decoration: overline;
+        }
     }
 }
+
+// Site footer
+.footer {
+    background-color: $gray-900;
+    color: $light;
+    padding: $spacer $spacer * 2 $spacer * 2;
+    dl {
+        margin: 0;
+        @include media-breakpoint-up(sm) {
+                margin-left: 50%;
+        }
+    }
+    dt {
+        margin-top: $spacer / 2;
+    }
+    dd {
+        margin-left: $spacer;
+        margin-bottom: 0;
+    }
+}
+
+
 
 

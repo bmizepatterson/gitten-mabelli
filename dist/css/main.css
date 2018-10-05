@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato:300|Satisfy");
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC&text=GittenMabelli");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&text=GittenMabelliunusual");
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -25,7 +25,7 @@
   --secondary: #6c757d;
   --success: #3f6e3c;
   --info: #924e29;
-  --warning: #f4c533;
+  --warning: #ffc929;
   --danger: #cc3610;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -1619,15 +1619,15 @@ pre code {
 .table-warning,
 .table-warning > th,
 .table-warning > td {
-  background-color: #fcefc6;
+  background-color: #fff0c3;
 }
 
 .table-hover .table-warning:hover {
-  background-color: #fbe8ae;
+  background-color: #ffeaaa;
 }
 .table-hover .table-warning:hover > td,
 .table-hover .table-warning:hover > th {
-  background-color: #fbe8ae;
+  background-color: #ffeaaa;
 }
 
 .table-danger,
@@ -2328,29 +2328,29 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #212529;
-  background-color: #f4c533;
-  border-color: #f4c533;
+  background-color: #ffc929;
+  border-color: #ffc929;
 }
 .btn-warning:hover {
   color: #212529;
-  background-color: #f2bb0f;
-  border-color: #e8b20c;
+  background-color: #ffbf03;
+  border-color: #f5b700;
 }
 .btn-warning:focus, .btn-warning.focus {
-  box-shadow: 0 0 0 0.2rem rgba(244, 197, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 201, 41, 0.5);
 }
 .btn-warning.disabled, .btn-warning:disabled {
   color: #212529;
-  background-color: #f4c533;
-  border-color: #f4c533;
+  background-color: #ffc929;
+  border-color: #ffc929;
 }
 .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active, .show > .btn-warning.dropdown-toggle {
   color: #212529;
-  background-color: #e8b20c;
-  border-color: #dba90c;
+  background-color: #f5b700;
+  border-color: #e8ae00;
 }
 .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus, .show > .btn-warning.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(244, 197, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 201, 41, 0.5);
 }
 
 .btn-danger {
@@ -2543,30 +2543,30 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning {
-  color: #f4c533;
+  color: #ffc929;
   background-color: transparent;
   background-image: none;
-  border-color: #f4c533;
+  border-color: #ffc929;
 }
 .btn-outline-warning:hover {
   color: #212529;
-  background-color: #f4c533;
-  border-color: #f4c533;
+  background-color: #ffc929;
+  border-color: #ffc929;
 }
 .btn-outline-warning:focus, .btn-outline-warning.focus {
-  box-shadow: 0 0 0 0.2rem rgba(244, 197, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 201, 41, 0.5);
 }
 .btn-outline-warning.disabled, .btn-outline-warning:disabled {
-  color: #f4c533;
+  color: #ffc929;
   background-color: transparent;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-warning:not(:disabled):not(.disabled).active, .show > .btn-outline-warning.dropdown-toggle {
   color: #212529;
-  background-color: #f4c533;
-  border-color: #f4c533;
+  background-color: #ffc929;
+  border-color: #ffc929;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(244, 197, 51, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 201, 41, 0.5);
 }
 
 .btn-outline-danger {
@@ -4333,12 +4333,12 @@ input[type=button].btn-block {
 
 .badge-warning {
   color: #212529;
-  background-color: #f4c533;
+  background-color: #ffc929;
 }
 .badge-warning[href]:hover, .badge-warning[href]:focus {
   color: #212529;
   text-decoration: none;
-  background-color: #e8b20c;
+  background-color: #f5b700;
 }
 
 .badge-danger {
@@ -4465,15 +4465,15 @@ input[type=button].btn-block {
 }
 
 .alert-warning {
-  color: #7f661b;
-  background-color: #fdf3d6;
-  border-color: #fcefc6;
+  color: #856915;
+  background-color: #fff4d4;
+  border-color: #fff0c3;
 }
 .alert-warning hr {
-  border-top-color: #fbe8ae;
+  border-top-color: #ffeaaa;
 }
 .alert-warning .alert-link {
-  color: #554412;
+  color: #59460e;
 }
 
 .alert-danger {
@@ -4686,17 +4686,17 @@ input[type=button].btn-block {
 }
 
 .list-group-item-warning {
-  color: #7f661b;
-  background-color: #fcefc6;
+  color: #856915;
+  background-color: #fff0c3;
 }
 .list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {
-  color: #7f661b;
-  background-color: #fbe8ae;
+  color: #856915;
+  background-color: #ffeaaa;
 }
 .list-group-item-warning.list-group-item-action.active {
   color: #fff;
-  background-color: #7f661b;
-  border-color: #7f661b;
+  background-color: #856915;
+  border-color: #856915;
 }
 
 .list-group-item-danger {
@@ -5445,13 +5445,13 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #f4c533 !important;
+  background-color: #ffc929 !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
 button.bg-warning:hover,
 button.bg-warning:focus {
-  background-color: #e8b20c !important;
+  background-color: #f5b700 !important;
 }
 
 .bg-danger {
@@ -5549,7 +5549,7 @@ button.bg-dark:focus {
 }
 
 .border-warning {
-  border-color: #f4c533 !important;
+  border-color: #ffc929 !important;
 }
 
 .border-danger {
@@ -8455,11 +8455,11 @@ a.text-info:hover, a.text-info:focus {
 }
 
 .text-warning {
-  color: #f4c533 !important;
+  color: #ffc929 !important;
 }
 
 a.text-warning:hover, a.text-warning:focus {
-  color: #e8b20c !important;
+  color: #f5b700 !important;
 }
 
 .text-danger {
@@ -8628,7 +8628,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-container {
-  background-image: url("../assets/homepage-banner.jpg");
+  background-image: url("../img/home-banner.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -8639,17 +8639,46 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 6rem;
   font-family: "Amatic SC", Georgia, Times, serif;
   letter-spacing: -5px;
-  color: #fff;
+  color: #ffc929;
+  text-shadow: 3px 3px 10px #000, -3px -3px 20px #000;
 }
 .banner-container .site-tag {
   text-align: center;
   padding: 0.5rem;
   margin-top: 1rem;
-  background-color: rgba(150, 150, 150, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
+  font-family: Satisfy, Georgia, Times, serif;
+  font-size: 1.5rem;
 }
 .banner-container .site-tag p {
   margin: 0;
+}
+.banner-container .site-tag .unusual {
+  font-family: "Amatic SC", Georgia, Times, serif;
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+.footer {
+  background-color: #212529;
+  color: #f8f9fa;
+  padding: 1rem 2rem 2rem;
+}
+.footer dl {
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .footer dl {
+    margin-left: 50%;
+  }
+}
+.footer dt {
+  margin-top: 0.5rem;
+}
+.footer dd {
+  margin-left: 1rem;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
