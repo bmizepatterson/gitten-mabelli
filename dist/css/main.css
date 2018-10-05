@@ -8681,8 +8681,6 @@ a {
 .content {
   background-color: #f8f9fa;
   color: #343a40;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .footer {
@@ -8709,7 +8707,15 @@ a {
   text-align: center;
 }
 #menu-output h2, #error-output h2 {
-  margin-top: 5rem;
+  padding-top: 2rem;
+}
+#menu-output p, #error-output p {
+  padding-bottom: 3rem;
+}
+
+#map {
+  width: 100%;
+  margin-bottom: -1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

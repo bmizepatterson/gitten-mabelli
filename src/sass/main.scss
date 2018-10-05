@@ -135,8 +135,6 @@ a {
 .content {
     background-color: $light;
     color: $dark;
-    padding-top: $spacer;
-    padding-bottom: $spacer;
 }
 
 // Site footer
@@ -161,6 +159,14 @@ a {
     display: none;
     text-align: center;
     h2 {
-        margin-top: $spacer * 5;
+        padding-top: $spacer * 2;
     }
+    p {
+        padding-bottom: $spacer * 3;
+    }
+}
+
+#map {
+    width: 100%;
+    margin-bottom: $spacer * -1;
 }
