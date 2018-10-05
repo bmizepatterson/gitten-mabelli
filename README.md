@@ -16,7 +16,13 @@ Edit assets **only** in the `src/` directory. Run `npm run dev` to set watchers 
 
 ## To publish
 
+In order to deploy to Heroku, ensure that you have added this git remote:
+
+`https://git.heroku.com/gitten-mabelli.git`
+
+Then follow these steps to deploy:
+
 1. Test the site with express by running `node index.js` and taking a peek at [localhost:3000](http://localhost:3000).
 2. If all looks well, `git push heroku master`.
-3. View app on heroku at [XXX](XXX).
+3. View the published site at [https://gitten-mabelli.herokuapp.com/](https://gitten-mabelli.herokuapp.com/).
 4. Celebrate with an Oreo.
