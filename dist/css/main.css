@@ -8657,6 +8657,14 @@ a {
     font-size: 10rem;
   }
 }
+.banner-container .site-title #site-name, .banner-container .page-title #site-name {
+  font-size: 8rem;
+}
+@media (min-width: 992px) {
+  .banner-container .site-title #site-name, .banner-container .page-title #site-name {
+    font-size: 14rem;
+  }
+}
 .banner-container .page-tag, .banner-container .site-tag {
   text-align: center;
   padding: 0.5rem;

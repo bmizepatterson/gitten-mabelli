@@ -101,7 +101,15 @@ a {
                 font-size: 10rem;
             }
         }
+
+        #site-name {
+            font-size: 8rem;
+            @include media-breakpoint-up(lg) {
+                font-size: 14rem;
+            }
+        }
     }
+
     %tag-line {
         text-align: center;
         padding: 0.5rem;
