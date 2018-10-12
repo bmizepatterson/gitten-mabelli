@@ -8642,7 +8642,17 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 250px 10% 270px;
+  padding: 100px 10% 270px;
+}
+@media (min-width: 768px) {
+  .banner-container {
+    padding-top: 200px;
+  }
+}
+@media (min-width: 992px) {
+  .banner-container {
+    padding-top: 175px;
+  }
 }
 .banner-container .site-title h1, .banner-container .page-title h1 {
   text-align: center;
@@ -8662,7 +8672,7 @@ a {
 }
 @media (min-width: 992px) {
   .banner-container .site-title #site-name, .banner-container .page-title #site-name {
-    font-size: 14rem;
+    font-size: 13rem;
   }
 }
 .banner-container .page-tag, .banner-container .site-tag {
